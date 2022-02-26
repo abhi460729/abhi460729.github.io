@@ -22,16 +22,7 @@ const StyledTitle = styled.h4`
     display: block;
   }
 `;
-const StyledArchiveLink = styled(Link)`
-  ${mixins.inlineLink};
-  text-align: center;
-  margin: 0 auto;
-  font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.sm};
-  &:after {
-    bottom: 0.1em;
-  }
-`;
+
 const StyledGrid = styled.div`
   margin-top: 50px;
   margin-left: 10%;
@@ -130,12 +121,10 @@ const StyledMoreButton = styled(Button)`
 const Projects = ({ data }) => {
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
-  const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
 
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
-    sr.reveal(revealArchiveLink.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
