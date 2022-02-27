@@ -1,7 +1,7 @@
 ---
 
 title: 'Queen's Court'
-cover: './application.png'
+cover: './application1.png'
 external: 'https://abhi460729.github.io/FoodCourt/'
 github: 'https://github.com/abhi460729/FoodCourt'
 cta: 'https://github.com/abhi460729/FoodCourt'
