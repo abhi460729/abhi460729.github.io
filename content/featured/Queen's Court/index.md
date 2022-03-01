@@ -1,7 +1,6 @@
 ---
 date: '01-06-2017'
 title: 'Queen's Court'
-cover: './demo.png'
 github: 'https://github.com/abhi460729/FoodCourt'
 external: 'https://abhi460729.github.io/FoodCourt/'
 tech:
