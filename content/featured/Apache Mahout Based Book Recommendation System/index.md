@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '28-02-2022'
 title: 'Research Paper - Apache Mahout based Book Recommendation System for BookMart (An Online Book Shopping Platform)'
 cover: './demo.png'
 github: 'https://github.com/abhi460729/Research-Paper---Apache-Mahout-based-Book-Recommendation-System'
